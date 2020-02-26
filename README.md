@@ -48,7 +48,8 @@ The directory structure of your new project looks like this:
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── experiments_cfg    <- config files to run experiments from, hold it in seperate folder to be maintained by git
+|__ experiments        <- holds the results and outputs from running experiments, this will not be maintained by git.
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
